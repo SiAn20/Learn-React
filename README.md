@@ -91,6 +91,24 @@ Proyecto/
 │── vite.config.js   # Configuración de Vite (alias, plugins, optimización, etc.)
 ```
 
+Para comenzar con un proyecto en blanco eliminar:
+
+```bash
+│ ├── App.css
+│ ├── App.jsx
+│ ├── index.css
+```
+
+## Hola mundo en React
+
+Hecho lo anterior editar el main de la siguiente forma:
+
+```bash
+import { createRoot } from "react-dom/client";
+
+createRoot(document.getElementById("root")).render("Hola mundo");
+```
+
 # 🔍 Comparación con otras tecnologías
 
 | Característica           | Angular                        | React                 | Vue                   |
