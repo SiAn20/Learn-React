@@ -43,8 +43,7 @@ Usado por primera vez en el Feed de Noticias de Facebook en **2011**, después e
 ## JSX
 
 **JSX (JavaScript XML)** es una extensión de la sintaxis de JavaScript utilizada en React para definir la estructura de la interfaz de usuario de una manera similar a HTML.
-
-Permite escribir componentes de forma más intuitiva y expresiva, combinando JavaScript con una sintaxis parecida a XML. Ejemplo:
+Combina JavaScript con una sintaxis parecida a XML. Ejemplo:
 
 ```bash
 //jsx
@@ -63,19 +62,6 @@ function Saludo() {
 ```
 
 Para transformar de js a jsx React usa: **swc, Babel**
-
-## Buenas practicas
-
-### Componentes
-
-Los nombres de los componentes debe ser pascal case, de otro modo no se diferenciaria de un elemento html:
-
-```bash
-PascalCase
-camelCase
-snake_case
-kebab-case
-```
 
 # 🔓 Creación e instalación
 

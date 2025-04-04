@@ -1,12 +1,19 @@
-# React + Vite
+## Buenas practicas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Componentes
 
-Currently, two official plugins are available:
+Los nombres de los componentes debe ser pascal case, de otro modo no se diferenciaria de un elemento html:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+PascalCase
+camelCase
+snake_case
+kebab-case
+```
 
-## Expanding the ESLint configuration
+componente = factoria de elementos
+elemento = lo q renderiza react
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+que es prop, son inmutables, ejemplos de uos 
+que es children cuando usarlo, ejemplos
+valores por defecto en parametros
