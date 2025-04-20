@@ -121,7 +121,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render("Hola mundo");
 ```
 
-Para comenzar con un proyecto en blanco, :
+Para comenzar con un proyecto en blanco, eliminar o limpiar:
 
 ```bash
 │ ├── App.css
@@ -137,7 +137,7 @@ Para comenzar con un proyecto en blanco, :
 | **Arquitectura**         | Basado en módulos              | Basado en componentes | Basado en componentes |
 | **Data Binding**         | Bidireccional                  | Unidireccional        | Ambas                 |
 | **Estado Global**        | RxJS, NgRx                     | Redux, Context API    | Vuex, Pinia           |
-| **CLI Oficial**          | Sí (Angular CLI`               | No (Usa Vite, CRA)    | Sí (Vue CLI)          |
+| **CLI Oficial**          | Sí (Angular CLI)               | No (Usa Vite, CRA)    | Sí (Vue CLI)          |
 | **Renderizado**          | SPA, SSR con Angular Universal | SPA, SSR con Next.js  | SPA, SSR con Nuxt.js  |
 | **Curva de Aprendizaje** | Alta                           | Media                 | Baja                  |
 
@@ -146,3 +146,5 @@ Para comenzar con un proyecto en blanco, :
 - Documentación oficial: [React](https://es.react.dev/)
 - Preguntas y respuesta de la comunidad: [React wiki](https://www.reactjs.wiki/)
 - Transformar js a jsx: [SWC Speedy Web Compiler](https://swc.rs/playground)
+- Juego para Aprender: [Codedex](https://www.codedex.io/react)
+- Proyectos: [DevProjects](https://www.codementor.io/projects/reactjs)
